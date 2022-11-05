@@ -23,10 +23,13 @@ solve: After step 3 now I can determine which user is authinticated or not . So 
 solve: In serializer validate password if password and password2 same though it will raise error . I removed it.
 
 7. Any Authenticated user can see all record
-solved: Added queryset for user can only their record 
+solve: Added queryset for user can only their record 
 
 8. Details operation(Retrive/Update/Delete) can be done by anyone .
-solved: Only authintacated user can retrive own record and manipulate only own records.
+solve: Only authintacated user can retrive own record and manipulate only own records.
+
+9. Custome pagination won't working with limit recordset search by query_param
+solve: Change in custome pagination . We can also set Global pagination class.
 
 
 N.B: Admin user has all access . Admin user can access to al operation over all records.
