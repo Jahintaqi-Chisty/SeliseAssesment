@@ -1,6 +1,6 @@
 #sellis
 #Exam
-# Issue and Solve it
+# Issues and Solution
 
 Issue List :
 1. RuntimeError: Model class movies.models.Movie doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
